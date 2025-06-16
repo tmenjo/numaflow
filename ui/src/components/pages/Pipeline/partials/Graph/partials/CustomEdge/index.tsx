@@ -6,13 +6,13 @@ import {
   EdgeProps,
   EdgeLabelRenderer,
   getSimpleBezierPath,
-} from "reactflow";
+} from "@xyflow/react";
 import { duration } from "moment";
 import { HighlightContext } from "../../index";
 import { HighlightContextProps } from "../../../../../../../types/declarations/graph";
 import error from "../../../../../../../images/error.svg";
 
-import "reactflow/dist/style.css";
+import "@xyflow/react/dist/style.css";
 import "./style.css";
 
 const CustomEdge: FC<EdgeProps> = ({

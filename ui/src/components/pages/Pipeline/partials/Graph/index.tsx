@@ -7,7 +7,7 @@ import React, {
   useState,
   useContext,
 } from "react";
-import ReactFlow, {
+import {
   applyEdgeChanges,
   applyNodeChanges,
   Edge,
@@ -20,8 +20,9 @@ import ReactFlow, {
   Panel,
   useReactFlow,
   useViewport,
+  ReactFlow,
   ReactFlowProvider,
-} from "reactflow";
+} from "@xyflow/react";
 import {
   Accordion,
   AccordionSummary,
@@ -68,7 +69,7 @@ import monoVertex from "../../../../../images/monoVertex.svg";
 import input from "../../../../../images/input0.svg";
 import generator from "../../../../../images/generator0.svg";
 
-import "reactflow/dist/style.css";
+import "@xyflow/react/dist/style.css";
 import "./style.css";
 
 const nodeWidth = 252;

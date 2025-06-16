@@ -1,5 +1,5 @@
 import { Dispatch, SetStateAction } from "react";
-import { Edge, Node } from "reactflow";
+import { Edge, Node } from "@xyflow/react";
 import { GraphData, Pipeline } from "./pipeline";
 
 export interface GraphProps {
